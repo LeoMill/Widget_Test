@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QAction *aboutQtAct = helpMenu->addAction(tr("About &Qt"), qApp, &QApplication::aboutQt);
     aboutQtAct->setStatusTip(tr("Show the Qt library's About box"));
-    //setWindowIcon(QIcon(":Pic/Tools.png"));
+    //setWindowIcon(QIcon(":Pic/Tools.ico"));
 }
 
 MainWindow::~MainWindow()
